@@ -12,7 +12,7 @@ class Producto{
 
   }
   vender(){
-    this.disponible=falso;
+    this.disponible=false;
   }
   precioSugerido(){
     return this.precio *1.21*1.25;
